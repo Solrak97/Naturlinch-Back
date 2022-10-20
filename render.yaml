@@ -3,7 +3,7 @@ services:
     name: naturlinch-strapi
     env: node
     plan: free
-    buildCommand: yarn install & yarn bild
+    buildCommand: yarn install & yarn build
     startCommand: rsync -a public/ /data/public/ && yarn start
     healthCheckPath: /_health
     disk:
