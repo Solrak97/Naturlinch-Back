@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_pages",
+  "info": {
+    "displayName": "pages",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "subpath": {
+      "type": "string"
+    }
+  }
+}

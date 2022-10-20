@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "productos_views",
+  "info": {
+    "singularName": "productos-view",
+    "pluralName": "productos-views",
+    "displayName": "productosView"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "introduccion": {
+      "type": "text"
+    },
+    "banner": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
