@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: strapi
+    name: naturlinch-strapi
     env: node
     plan: free
     buildCommand: yarn install & yarn bild
