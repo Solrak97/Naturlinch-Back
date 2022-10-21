@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "strapi": "^3.6.10",
     "@strapi/plugin-graphql": "^4.0.0",
     "@strapi/plugin-i18n": "4.4.3",
     "@strapi/plugin-users-permissions": "4.4.3",
@@ -7,8 +8,7 @@
     "better-sqlite3": "7.4.6",
     "lodash.set": "^4.3.2",
     "mime-types": "^2.1.27",
-    "qs": "^6.11.0",
-    "strapi": "^3.6.10"
+    "qs": "^6.11.0"
   },
   "name": "backend",
   "private": true,
