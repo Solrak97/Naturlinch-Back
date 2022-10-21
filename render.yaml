@@ -3,8 +3,8 @@ services:
     name: naturlinch-strapi
     env: node
     plan: free
-    buildCommand: npm install & npm build
-    startCommand: npm start
+    buildCommand: yarn install & yarn build
+    startCommand: yarn start
     healthCheckPath: /_health
     disk:
       name: naturlinch-uploads
